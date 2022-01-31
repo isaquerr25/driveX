@@ -1,6 +1,6 @@
 # driveX
 
-Projeto é uma aplicativa transporte de passageiros baseado no Uber e 99Pop
+Projeto é uma aplicativo de transporte de passageiros baseado no Uber e 99Pop
 
 ## Telas inicias
 Tela de Login<br/>
