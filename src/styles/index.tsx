@@ -25,11 +25,11 @@ export const Container = styled.View<ContainerProps>`
     padding : ${(props) => (props.padding || 0)}px;
     width: 100%;
     align-items : ${(props) => (props.align || 'center')};
-    max-width : ${(props) => (props.width  || '100%')};
+    max-width : ${(props) => (props.width != null ? (props.width + 'px') : '100%')};
     max-height : ${(props) => (props.height ?  props.height + 'px' : 'auto')};
     min-height: ${(props) => (props.heightM ?  props.heightM + 'px' : '0px')};;
     position : ${(props) => (props.position || 'relative')};
-    top : ${(props) => (props.top || 0)};
+    top : ${(props) => (props.top || '0px')};
     z-index : ${(props) => (props.zIndex || 1)};
 `;  
 

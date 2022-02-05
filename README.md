@@ -1,5 +1,5 @@
 # driveX
-## React Native Expo
+
 Projeto é uma aplicativo de transporte de passageiros baseado no Uber e 99Pop
 
 ## Telas inicias
